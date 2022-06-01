@@ -4,7 +4,7 @@
 <section class="hero ">
   <div class="container  ">
     <div class="row">
-      <div class="col-lg-6 mt-5">
+      <div class="col-lg-6 col-md-6 col-sm-12 mt-5">
           <div class="hero-title mt-5">
             <h2> MrAdora is here to help start your brand </h2>
             <p>MrAdora has helped many brands build their identity by using modern technologies</p>
@@ -13,7 +13,7 @@
             <button class="btn btn-outline-white shadow-none h-btn">Get a quota</button>
           </div>
       </div>
-      <div class="col-lg-6 mt-5">
+      <div class="col-lg-6 col-md-6  d-none d-sm-block mt-5">
         <img src="../assets/hero.png" alt="">
       </div>
     </div>
@@ -24,7 +24,7 @@
   <div class="container">
     <div class="row">
       <div class="col-lg-7 col-md-6">
-        
+        <img src="../assets/hero.png" alt="">
       </div>
     </div>
   </div>
