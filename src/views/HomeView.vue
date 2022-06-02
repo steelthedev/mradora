@@ -23,6 +23,9 @@
 <section class="about">
   <div class="container">
     <div class="row justify-content-center mt-5">
+      <div class="col-lg-5 text-center col-md-6">
+        <img src="../assets/questionman.png" alt="">
+      </div>
       <div class="col-lg-7 col-md-6 mt-5">
         <div class="about-heading">
           <h1 class="text-main heading-lg mt-5">What is MrAdora?</h1>
@@ -33,9 +36,7 @@
           </p>
         </div>
       </div>
-      <div class="col-lg-5 text-center col-md-6">
-        <img src="../assets/questionman.png" alt="">
-      </div>
+      
     </div>
   </div>
 
