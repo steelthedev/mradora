@@ -13,7 +13,7 @@
             <button class="btn btn-outline-white shadow-none h-btn"> Message MrAdora </button>
           </div>
       </div>
-      <div class="col-lg-6 col-md-6  d-none d-sm-block mt-5">
+      <div class="col-lg-6 col-md-6  d-none  d-sm-block mt-5">
         <img src="../assets/hero.png" alt="">
       </div>
     </div>
@@ -23,12 +23,13 @@
 <section class="about">
   <div class="container">
     <div class="row justify-content-center mt-5">
-      <div class="col-lg-5 text-center col-md-6">
+      <div class="col-sm-12 d-sm-block d-md-none d-lg-none text-center ">
         <img src="../assets/questionman.png" alt="">
       </div>
-      <div class="col-lg-7 col-md-6 mt-5">
+
+      <div class="col-lg-7 col-md-6 mt-md-5">
         <div class="about-heading">
-          <h1 class="text-main heading-lg mt-5">What is MrAdora?</h1>
+          <h1 class="text-main heading-lg mt-md-5">What is MrAdora?</h1>
         </div>
         <div class="about-words text-justify">
           <p class="text-md">
@@ -36,18 +37,24 @@
           </p>
         </div>
       </div>
+        <div class="col-lg-5 d-none d-sm-none d-md-block  text-center col-md-6">
+        <img src="../assets/questionman.png" alt="">
+      </div>
       
     </div>
   </div>
 
   <div class="container">
     <div class="row justify-content-center mt-5">
-        <div class="col-lg-5 text-center col-md-6">
+        <div class="col-sm-12 d-sm-block d-md-none d-lg-none text-center ">
+          <img src="../assets/questionwoman.png" alt="">
+        </div>
+        <div class="col-lg-5 text-center d-none d-sm-none d-md-block col-md-6">
         <img src="../assets/questionwoman.png" alt="">
       </div>
-      <div class="col-lg-7 col-md-6 mt-5">
+      <div class="col-lg-7 col-md-6 mt-md-5">
         <div class="about-heading">
-          <h1 class="text-main heading-lg mt-5">Are my chats secure with MrAdora?</h1>
+          <h1 class="text-main heading-lg mt-md-5">Are my chats secure with MrAdora?</h1>
         </div>
         <div class="about-words text-justify">
           <p class="text-md">
@@ -62,10 +69,12 @@
 
 <div class="container">
     <div class="row justify-content-center mt-5">
-        
-      <div class="col-lg-7 col-md-6 mt-5">
+        <div class="col-sm-12  text-center d-sm-block d-md-none d-lg-none ">
+        <img src="../assets/ladyconfused.png" alt="">
+      </div>
+      <div class="col-lg-7 col-md-6 mt-md-5">
         <div class="about-heading">
-          <h1 class="text-main heading-lg mt-5">Can MrAdora help with my longtime depression?</h1>
+          <h1 class="text-main heading-lg mt-md-5">Can MrAdora help with my longtime depression?</h1>
         </div>
         <div class="about-words text-justify">
           <p class="text-md">
@@ -75,7 +84,7 @@
         </div>
       </div>
 
-      <div class="col-lg-5 text-center col-md-6">
+      <div class="col-lg-5 text-center  d-sm-none d-none d-md-block  col-md-6">
         <img src="../assets/ladyconfused.png" alt="">
       </div>
    
@@ -85,12 +94,15 @@
 
   <div class="container">
     <div class="row justify-content-center mt-5">
-        <div class="col-lg-5 text-center col-md-6">
+      <div class="col-sm-12 text-center  d-sm-block d-md-none d-lg-none ">
         <img src="../assets/questionwoman.png" alt="">
       </div>
-      <div class="col-lg-7 col-md-6 mt-5">
+        <div class="col-lg-5 text-center d-sm-none d-none d-md-block col-md-6">
+        <img src="../assets/questionwoman.png" alt="">
+      </div>
+      <div class="col-lg-7 col-md-6 mt-md-5">
         <div class="about-heading">
-          <h1 class="text-main heading-lg mt-5">How do I get started with MrAdora?</h1>
+          <h1 class="text-main heading-lg mt-md-5">How do I get started with MrAdora?</h1>
         </div>
         <div class="about-words text-justify">
           <p class="text-md">
@@ -119,7 +131,9 @@ export default {
 }
 </script>
 <style scoped>
-
+*{
+  overflow-x: hidden;
+}
 
 .heading-lg{
   font-size: 3rem;
@@ -203,7 +217,7 @@ export default {
 }
 
 .a-btn{
-  padding: 10px;
+  padding: 10px 20px;
   background:var(--main-color);
   border: 2px #ffffff solid;
   border-radius: 15px;
@@ -218,7 +232,21 @@ export default {
   width: 450px;
 }
 
+@media screen and (max-width:900px) {
+  .about img{
+  width: 350px;
+}
 
+.about{
+  padding:20px;
+}
+
+.about h1{
+  font-size:2rem;
+  margin-top: 3px;
+}
+
+}
 
 
 </style>
