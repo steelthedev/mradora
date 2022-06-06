@@ -52,7 +52,7 @@
         <div class="col-lg-5 text-center d-none d-sm-none d-md-block col-md-6">
         <img src="../assets/questionwoman.png" alt="">
       </div>
-      <div class="col-lg-7 col-md-6 mt-md-5">
+      <div class="col-lg-7 col-md-6 col-sm-12 mt-md-5">
         <div class="about-heading">
           <h1 class="text-main heading-lg mt-md-5">Are my chats secure with MrAdora?</h1>
         </div>
@@ -72,7 +72,7 @@
         <div class="col-sm-12  text-center d-sm-block d-md-none d-lg-none ">
         <img src="../assets/ladyconfused.png" alt="">
       </div>
-      <div class="col-lg-7 col-md-6 mt-md-5">
+      <div class="col-lg-7 col-md-6 mt-md-5 col-sm-12">
         <div class="about-heading">
           <h1 class="text-main heading-lg mt-md-5">Can MrAdora help with my longtime depression?</h1>
         </div>
@@ -102,7 +102,7 @@
       </div>
       <div class="col-lg-7 col-md-6 mt-md-5">
         <div class="about-heading">
-          <h1 class="text-main heading-lg mt-md-5">How do I get started with MrAdora?</h1>
+          <h1 class="text-main heading-lg col-sm-12 mt-md-5">How do I get started with MrAdora?</h1>
         </div>
         <div class="about-words text-justify">
           <p class="text-md">
