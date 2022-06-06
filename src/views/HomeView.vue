@@ -131,9 +131,7 @@ export default {
 }
 </script>
 <style scoped>
-*{
-  overflow-x: hidden;
-}
+
 
 .heading-lg{
   font-size: 3rem;
