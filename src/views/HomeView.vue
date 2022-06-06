@@ -249,4 +249,25 @@ export default {
 }
 
 
+@media screen and (max-width:480px) {
+  .about img{
+  width: 300px;
+}
+
+.about{
+  padding:20px;
+}
+
+.about h1{
+  font-size:2rem;
+  margin-top: 3px;
+}
+
+.hero{
+  padding: 20px;
+}
+
+}
+
+
 </style>
