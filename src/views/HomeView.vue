@@ -4,7 +4,7 @@
 <section class="hero ">
   <div class="container ">
     <div class="row">
-      <div class="col-lg-6 col-md-6 mt-5">
+      <div class="col-lg-6 col-md-6 mt-5 pt-md-5">
           <div class="hero-title mt-5 ">
             <h2> MrAdora is here to relieve your depression </h2>
             <p>MrAdora has helped several people overcome their fears through proper counselling</p>
@@ -113,7 +113,41 @@
    
     </div>
   </div>
+</section>
 
+<section class="contact">
+  <div class="container">
+    <div class="row justify-content-center mt-5">
+      <div class="col-lg-8 col-md-12 text-center">
+        <h2 class="heading-lg text-main">Get in touch with MrAdora</h2>
+        <p class="text-md">Send MrAdora your thoughts, it takes only small time before you get a response.</p>
+      </div>
+    </div>
+    <div class="row justify-content-center">
+      <div class="col-lg-8 col-md-12 mt-2">
+        <div class="row justify-content-center">
+          <div class="col-lg-8 col-md-12">
+            <div class="form-group">
+              <input type="email" placeholder="Email address" class="form-control shadow-none">
+            </div>
+          </div>
+          <div class="col-lg-8 col-md-12 mt-2">
+            <div class="form-group">
+              <textarea name="" id="" placeholder="What is bothering you?" cols="30" rows="10" class="shadow-none form-control"></textarea>
+            </div>
+          </div>
+
+          <div class="col-lg-8 col-md-12 mb-5 mt-4">
+            <div class="form-group">
+              <button class="btn btn-outline-white shadow-none f-btn">Send Message</button>
+            </div>
+          </div>
+
+
+        </div>
+      </div>
+    </div>
+  </div>
 </section>
 
 
@@ -186,6 +220,8 @@ export default {
 
 
 
+
+
 .hero{
   padding:60px 0;
   background-image: linear-gradient(to right, rgb(255, 87, 51) 45%,rgb(223, 97, 69) );
@@ -193,7 +229,7 @@ export default {
 }
 
 .hero h2{
-  font-size:3.5rem;
+  font-size:3rem;
 }
 
 .hero p{
@@ -212,6 +248,19 @@ export default {
   background:#ffffff;
   border: 2px var(--main-color) solid;
   border-radius: 15px;
+}
+
+
+.f-btn{
+  padding: 15px 60px;
+  background: var(--main-color);
+  border: 2px var(--main-color) solid;
+  border-radius: 15px;
+}
+
+
+.contact input{
+  padding: 20px;
 }
 
 .a-btn{
