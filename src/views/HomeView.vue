@@ -94,7 +94,7 @@
 
   <div class="container">
     <div class="row justify-content-center mt-5">
-      <div class="col-sm-12 text-center  d-sm-block d-md-none d-lg-none ">
+      <div class="text-center  d-sm-block d-md-none d-lg-none ">
         <img src="../assets/questionwoman.png" alt="">
       </div>
         <div class="col-lg-5 text-center d-sm-none d-none d-md-block col-md-6">
