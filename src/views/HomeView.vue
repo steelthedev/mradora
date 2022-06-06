@@ -5,7 +5,7 @@
   <div class="container  ">
     <div class="row">
       <div class="col-lg-6 col-md-6 mt-5">
-          <div class="hero-title mt-5">
+          <div class="hero-title ">
             <h2> MrAdora is here to relieve your depression </h2>
             <p>MrAdora has helped several people overcome their fears through proper counselling</p>
           </div>
