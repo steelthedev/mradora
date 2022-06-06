@@ -234,7 +234,7 @@ export default {
 
 @media screen and (max-width:900px) {
   .about img{
-  width: 350px;
+  width: 300px;
 }
 
 .about{
